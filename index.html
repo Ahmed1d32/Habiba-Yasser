@@ -1,26 +1,21 @@
-
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>قاموس بسيط</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dictionary</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>قاموسي البسيط</h1>
-    </header>
-    <main>
-        <form>
-            <label for="word">أدخل كلمة:</label>
-            <input type="text" id="word" placeholder="اكتب الكلمة هنا">
-            <button type="submit">بحث</button>
-        </form>
-        <div id="result">
-            <!-- ستظهر النتيجة هنا -->
-        </div>
-    </main>
-    <script src="script.js"></script>
+  <div class="container">
+    <h1>Dictionary</h1>
+    <input type="text" id="searchInput" placeholder="Search for a word..." oninput="searchWord()">
+    <div id="definitionContainer">
+      <h2 id="wordTitle"></h2>
+      <p id="wordDefinition"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
