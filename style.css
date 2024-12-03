@@ -1,0 +1,29 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+form {
+    margin: 2rem auto;
+}
+
+input, button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+#result {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: #333;
+}
